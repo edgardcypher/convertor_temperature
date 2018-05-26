@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="JS/js.js"></script>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <h1 style="color: blue">Convert Temperatures</h1>
+                <div style="margin-left: 10px">
+                    <input type="radio" name="choice" value="toCelcius" id="choice2" onclick="label_F_to_C()">Fahrenheit To Celcius<br><br>
+                    <input type="radio" name="choice" value="toFahreneit" id="choice1" onclick="label_C_to_F()">Celcius To Fahrenheit<br><br>
+
+                </div>
+                <label id='label1'>Enter (°F) Degree:</label>
+                <input type="text" id="entry"><span  id="error"> * </span><br><br>
+                <label id='label2'>Degrees Celcius:</label>
+                <input type="text" disabled id="response" ><br><br>
+                <input type="button" name="Convert" value="Convert" id='button'>
+                <input type="reset" value="Reset" id="res">
+            </fieldset>
+        </form>
+
+    </body>
+</html>
